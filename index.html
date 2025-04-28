@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CD Dynamic Project3</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <nav>
+      <div class="col">
+        <button onclick="filterByMood('all')">All</button>
+        <button onclick="filterByMood('Fire')">Fire</button>
+        <button onclick="filterByMood('Water')">Water</button>
+        <button onclick="filterByMood('Grass')">Grass</button>
+        <button onclick="filterByMood('Electric')">Electric</button>
+        <button onclick="filterByMood('Dragon')">Dragon</button>
+      </div>
+      <div class="col">
+        <p class="logo">Jojo's Pokemon Collection</p>
+      </div>
+    </nav>
+    </nav>
+    <div class="container" id="imageContainer">
+        <div class="gallery">
+          <div class="row">
+            <div class="item Fire">
+              <div class="index"><p>Cyndaquil</p></div>
+              <div class="img">
+                <img src="./Pokemons/1.jpeg" alt="Cyndaquil" />
+              </div>
+            </div>
+            <div class="item Fire">
+              <div class="index"><p>Charmander</p></div>
+              <div class="img">
+                <img src="./Pokemons/2.jpeg" alt="Charmander" />
+              </div>
+            </div>
+            <div class="item Fire">
+              <div class="index"><p>Magby</p></div>
+              <div class="img">
+                <img src="./Pokemons/3.jpeg" alt="Magby" />
+              </div>
+            </div>
+            <div class="item Fire">
+              <div class="index"><p>Arcanine</p></div>
+              <div class="img">
+                <img src="./Pokemons/4.jpeg" alt="Arcanine" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="item Water">
+              <div class="index"><p>Totodile</p></div>
+              <div class="img">
+                <img src="./Pokemons/5.jpeg" alt="Totodile" />
+              </div>
+            </div>
+            <div class="item Water">
+              <div class="index"><p>Psyduck</p></div>
+              <div class="img">
+                <img src="./Pokemons/6.jpeg" alt="Psyduck" />
+              </div>
+            </div>
+            <div class="item Water">
+              <div class="index"><p>Squirtle</p></div>
+              <div class="img">
+                <img src="./Pokemons/7.jpeg" alt="Squirtle" />
+              </div>
+            </div>
+            <div class="item Water">
+              <div class="index"><p>Piplup</p></div>
+              <div class="img">
+                <img src="./Pokemons/8.jpeg" alt="Piplup" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="item Water">
+              <div class="index"><p>Walrein</p></div>
+              <div class="img">
+                <img src="./Pokemons/9.jpeg" alt="Walrein" />
+              </div>
+            </div>
+            <div class="item Grass">
+              <div class="index"><p>Meganium</p></div>
+              <div class="img">
+                <img src="./Pokemons/10.jpeg" alt="Meganium" />
+              </div>
+            </div>
+            <div class="item Grass">
+              <div class="index"><p>Bulbasaur</p></div>
+              <div class="img">
+                <img src="./Pokemons/11.jpeg" alt="Bulbasaur" />
+              </div>
+            </div>
+            <div class="item Grass">
+              <div class="index"><p>Gloom</p></div>
+              <div class="img">
+                <img src="./Pokemons/12.jpeg" alt="Gloom" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="item Grass">
+              <div class="index"><p>Gravyle</p></div>
+              <div class="img">
+                <img src="./Pokemons/13.jpeg" alt="Gravyle" />
+              </div>
+            </div>
+            <div class="item Grass">
+              <div class="index"><p>Victreebel</p></div>
+              <div class="img">
+                <img src="./Pokemons/14.jpeg" alt="Victreebel" />
+              </div>
+            </div>
+            <div class="item Electric">
+              <div class="index"><p>Electrivire</p></div>
+              <div class="img">
+                <img src="./Pokemons/15.jpeg" alt="Electrivire" />
+              </div>
+            </div>
+            <div class="item Electric">
+              <div class="index"><p>Pikachu</p></div>
+              <div class="img">
+                <img src="./Pokemons/16.jpeg" alt="Pikachu" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="item Electric">
+              <div class="index"><p>Luxray</p></div>
+              <div class="img">
+                <img src="./Pokemons/17.jpeg" alt="Luxray" />
+              </div>
+            </div>
+            <div class="item Electric">
+              <div class="index"><p>Magnemite</p></div>
+              <div class="img">
+                <img src="./Pokemons/18.jpeg" alt="Magnemite" />
+              </div>
+            </div>
+            <div class="item Dragon">
+              <div class="index"><p>Gible</p></div>
+              <div class="img">
+                <img src="./Pokemons/19.jpeg" alt="Gible" />
+              </div>
+            </div>
+            <div class="item Dragon">
+              <div class="index"><p>Flygon</p></div>
+              <div class="img">
+                <img src="./Pokemons/20.jpeg" alt="Flygon" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="item Dragon">
+              <div class="index"><p>Hydreigon</p></div>
+              <div class="img">
+                <img src="./Pokemons/21.jpeg" alt="Hydreigon" />
+              </div>
+            </div>
+            <div class="item Dragon">
+              <div class="index"><p>Haxorus</p></div>
+              <div class="img">
+                <img src="./Pokemons/22.jpeg" alt="Haxorus" />
+              </div>
+            </div>
+            <div class="item Dragon">
+              <div class="index"><p>Bagon</p></div>
+              <div class="img">
+                <img src="./Pokemons/23.jpeg" alt="Bagon" />
+              </div>
+            </div>
+            <div class="item Dragon">
+              <div class="index"><p>Lapras</p></div>
+              <div class="img">
+                <img src="./Pokemons/24.jpeg" alt="Lapras" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="preview">
+          <div class="preview-container">
+            <img src="./Pokemons/ball.jpeg" alt="" />
+          </div>
+        </div>
+    </div>
+
+ <div id="pokemonModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <img id="modal-img" src="" alt="Pokemon" />
+        <h2 id="modal-name">Pokémon Name</h2>
+        <p id="modal-type"><strong>Type:</strong> Fire</p>
+        <p id="modal-skill"><strong>Skill:</strong> Flame Wheel</p>
+        <p id="modal-weakness"><strong>Weakness:</strong> </p>
+        <p id="modal-desc">Description of the Pokémon</p>
+        <button id="play-cry">🔊 Play me</button>
+      </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="./script.js"></script>
+    <script>
+      function filterByMood(mood) {
+        const items = document.querySelectorAll('.item');
+        items.forEach(item => {
+          if (mood === 'all' || item.classList.contains(mood)) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
