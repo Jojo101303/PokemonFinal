@@ -6,7 +6,9 @@ const pokemonInfo = {
     type: "Fire",
     skill: "Flame Wheel",
     weakness: "Water",
-    cry: "./Sound/cyndaquil.mp3"
+    cry: "./Sound/cyndaquil.mp3",
+    chart: "./Radar/1.png",
+
   },
   "Charmander": {
     name: "Charmander",
@@ -15,7 +17,8 @@ const pokemonInfo = {
     type: "Fire",
     skill: "Ember",
     weakness: "Water",
-    cry: "./Sound/charmander.mp3"
+    cry: "./Sound/charmander.mp3",
+    chart: "./Radar/2.png",
   },
   "Magby": {
     name: "Magby",
@@ -24,7 +27,8 @@ const pokemonInfo = {
     type: "Fire",
     skill: "Smog",
     weakness: "Water",
-    cry: "./Sound/magby.mp3"
+    cry: "./Sound/magby.mp3",
+    chart: "./Radar/3.png",
   },
   "Arcanine": {
     name: "Arcanine",
@@ -33,7 +37,8 @@ const pokemonInfo = {
     type: "Fire",
     skill: "Extreme Speed",
     weakness: "Water",
-    cry: "./Sound/arcanine.mp3"
+    cry: "./Sound/arcanine.mp3",
+    chart: "./Radar/4.png",
   },
   "Totodile": {
     name: "Totodile",
@@ -42,7 +47,8 @@ const pokemonInfo = {
     type: "Water",
     skill: "Water Gun",
     weakness: "Electric",
-    cry: "./Sound/totodile.mp3"
+    cry: "./Sound/totodile.mp3",
+    chart: "./Radar/5.png",
   },
   "Psyduck": {
     name: "Psyduck",
@@ -51,7 +57,8 @@ const pokemonInfo = {
     type: "Water",
     skill: "Confusion",
     weakness: "Electric",
-    cry: "./Sound/psyduck.mp3"
+    cry: "./Sound/psyduck.mp3",
+    chart: "./Radar/6.png",
   },
   "Squirtle": {
     name: "Squirtle",
@@ -60,7 +67,8 @@ const pokemonInfo = {
     type: "Water",
     skill: "Bubble",
     weakness: "Electric",
-    cry: "./Sound/squirtle.mp3"
+    cry: "./Sound/squirtle.mp3",
+    chart: "./Radar/7.png",
   },
   "Piplup": {
     name: "Piplup",
@@ -69,7 +77,8 @@ const pokemonInfo = {
     type: "Water",
     skill: "Peck",
     weakness: "Electric",
-    cry: "./Sound/piplup.mp3"
+    cry: "./Sound/piplup.mp3",
+    chart: "./Radar/8.png",
   },
   "Walrein": {
     name: "Walrein",
@@ -78,7 +87,8 @@ const pokemonInfo = {
     type: "Water",
     skill: "Ice Fang",
     weakness: "Electric",
-    cry: "./Sound/walrein.mp3"
+    cry: "./Sound/walrein.mp3",
+    chart: "./Radar/9.png",
   },
   "Meganium": {
     name: "Meganium",
@@ -87,7 +97,8 @@ const pokemonInfo = {
     type: "Grass",
     skill: "Petal Dance",
     weakness: "Fire",
-    cry: "./Sound/meganium.mp3"
+    cry: "./Sound/meganium.mp3",
+    chart: "./Radar/10.png",
   },
   "Bulbasaur": {
     name: "Bulbasaur",
@@ -96,7 +107,8 @@ const pokemonInfo = {
     type: "Grass",
     skill: "Vine Whip",
     weakness: "Fire",
-    cry: "./Sound/bulbasaur.mp3"
+    cry: "./Sound/bulbasaur.mp3",
+    chart: "./Radar/11.png",
   },
   "Gloom": {
     name: "Gloom",
@@ -105,7 +117,8 @@ const pokemonInfo = {
     type: "Grass",
     skill: "Stun Spore",
     weakness: "Fire",
-    cry: "./Sound/gloom.mp3"
+    cry: "./Sound/gloom.mp3",
+    chart: "./Radar/12.png",
   },
   "Gravyle": {
     name: "Gravyle",
@@ -114,7 +127,8 @@ const pokemonInfo = {
     type: "Grass",
     skill: "Leaf Blade",
     weakness: "Fire",
-    cry: "./Sound/grovyle.mp3"
+    cry: "./Sound/grovyle.mp3",
+    chart: "./Radar/13.png",
   },
   "Victreebel": {
     name: "Victreebel",
@@ -123,7 +137,8 @@ const pokemonInfo = {
     type: "Grass",
     skill: "Acid",
     weakness: "Fire",
-    cry: "./Sound/victreebel.mp3"
+    cry: "./Sound/victreebel.mp3",
+    chart: "./Radar/14.png",
   },
   "Electrivire": {
     name: "Electrivire",
@@ -132,7 +147,8 @@ const pokemonInfo = {
     type: "Electric",
     skill: "Thunder Punch",
     weakness: "Ground",
-    cry: "./Sound/electrivire.mp3"
+    cry: "./Sound/electrivire.mp3",
+    chart: "./Radar/15.png",
   },
   "Pikachu": {
     name: "Pikachu",
@@ -141,7 +157,8 @@ const pokemonInfo = {
     type: "Electric",
     skill: "Thunderbolt",
     weakness: "Ground",
-    cry: "./Sound/pikachu.mp3"
+    cry: "./Sound/pikachu.mp3",
+    chart: "./Radar/16.png",
   },
   "Luxray": {
     name: "Luxray",
@@ -150,7 +167,8 @@ const pokemonInfo = {
     type: "Electric",
     skill: "Spark",
     weakness: "Ground",
-    cry: "./Sound/luxray.mp3"
+    cry: "./Sound/luxray.mp3",
+    chart: "./Radar/17.png",
   },
   "Magnemite": {
     name: "Magnemite",
@@ -159,7 +177,8 @@ const pokemonInfo = {
     type: "Electric",
     skill: "Thunder Shock",
     weakness: "Ground",
-    cry: "./Sound/magnemite.mp3"
+    cry: "./Sound/magnemite.mp3",
+    chart: "./Radar/18.png",
   },
   "Gible": {
     name: "Gible",
@@ -168,7 +187,8 @@ const pokemonInfo = {
     type: "Dragon",
     skill: "Dragon Rage",
     weakness: "Ice",
-    cry: "./Sound/gible.mp3"
+    cry: "./Sound/gible.mp3",
+    chart: "./Radar/19.png",
   },
   "Flygon": {
     name: "Flygon",
@@ -177,7 +197,8 @@ const pokemonInfo = {
     type: "Dragon",
     skill: "Earth Power",
     weakness: "Ice",
-    cry: "./Sound/flygon.mp3"
+    cry: "./Sound/flygon.mp3",
+    chart: "./Radar/20.png",
   },
   "Hydreigon": {
     name: "Hydreigon",
@@ -186,7 +207,8 @@ const pokemonInfo = {
     type: "Dragon",
     skill: "Dark Pulse",
     weakness: "Ice",
-    cry: "./Sound/hydreigon.mp3"
+    cry: "./Sound/hydreigon.mp3",
+    chart: "./Radar/21.png",
   },
   "Haxorus": {
     name: "Haxorus",
@@ -195,7 +217,8 @@ const pokemonInfo = {
     type: "Dragon",
     skill: "Dragon Claw",
     weakness: "Ice",
-    cry: "./Sound/haxorus.mp3"
+    cry: "./Sound/haxorus.mp3",
+    chart: "./Radar/22.png",
   },
   "Bagon": {
     name: "Bagon",
@@ -204,7 +227,8 @@ const pokemonInfo = {
     type: "Dragon",
     skill: "Headbutt",
     weakness: "Ice",
-    cry: "./Sound/bagon.mp3"
+    cry: "./Sound/bagon.mp3",
+    chart: "./Radar/23.png",
   },
   "Lapras": {
     name: "Lapras",
@@ -213,7 +237,8 @@ const pokemonInfo = {
     type: "Dragon",
     skill: "Ice Beam",
     weakness: "Electric",
-    cry: "./Sound/lapras.mp3"
+    cry: "./Sound/lapras.mp3",
+    chart: "./Radar/24.png",
   }
 };
 
@@ -258,6 +283,7 @@ function handleImageClick(event) {
     document.getElementById("modal-type").innerHTML = `<strong>Type:</strong> ${data.type}`;
     document.getElementById("modal-skill").innerHTML = `<strong>Skill:</strong> ${data.skill}`;
     document.getElementById("modal-weakness").innerHTML = `<strong>Weakness:</strong> ${data.weakness || 'Unknown'}`;
+    document.getElementById("modal-chart").src = data.chart || "";
   
     //bg change according to type 
     document.querySelector('.modal-content').style.backgroundColor =
